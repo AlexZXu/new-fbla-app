@@ -76,15 +76,15 @@ export default function CommunityElement(props) {
             profileImage="ProfilePic3"
           />
           <MediaElement 
-            name="." 
-            nameInfo="@. • Nov. 4"
+            name="SmoothSe" 
+            nameInfo="@SmoothSe • Nov. 4"
             mediaText="If you wanna get work done and sip on a smoothie, come to .!"
             imageName="TwitPic3"
             profileImage="HeroImage"
           />
           <MediaElement 
-            name="." 
-            nameInfo="@. • Nov. 4"
+            name="SmoothSe" 
+            nameInfo="@SmoothSe • Nov. 4"
             mediaText="New Event Going on Today, its a get work done day!"
             imageName="TwitPic4"
             profileImage="HeroImage"
@@ -97,7 +97,7 @@ export default function CommunityElement(props) {
           <div className={styles["community-contacts"]}>
             <div className={styles["community-contact"]}>
               <FaTwitter className={styles["community-icon"]} style={{color: '#1DA1F2'}}/>
-              <div>@somesmooth</div>
+              <div>@smoothse</div>
             </div>
             <div className={styles["community-contact"]}>
               <FaInstagram className={styles["community-icon"]} style={{color: '#E1306C'}}/>

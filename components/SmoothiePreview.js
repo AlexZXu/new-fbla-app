@@ -9,12 +9,12 @@ export default function SmoothiePreview() {
         {
             num: -2,
             imageName: '/CarouselImage3.jpg',
-            smoothieCaption: 'Red Smooth'
+            smoothieCaption: 'Red Water'
         },
         {
             num: -1,
             imageName: '/CarouselImage4.jpg',
-            smoothieCaption: 'Purple Smooth'
+            smoothieCaption: 'Pop Purple'
         },
         {
             num: 0,
@@ -24,22 +24,22 @@ export default function SmoothiePreview() {
         {
             num: 1,
             imageName: '/CarouselImage1.jpg',
-            smoothieCaption: 'Green Smooth'
+            smoothieCaption: 'Lotus Green'
         },
         {
             num: 2,
             imageName: '/CarouselImage2.jpg',
-            smoothieCaption: 'Orange Smooth'
+            smoothieCaption: 'Orange Orange'
         },
         {
             num: 3,
             imageName: '/CarouselImage3.jpg',
-            smoothieCaption: 'Red Smooth'
+            smoothieCaption: 'Red Water'
         },
         {
             num: 4,
             imageName: '/CarouselImage4.jpg',
-            smoothieCaption: 'Purple Smooth'
+            smoothieCaption: 'Pop Purple'
         },
         {
             num: 5,
@@ -49,12 +49,12 @@ export default function SmoothiePreview() {
         {
             num: 6,
             imageName: '/CarouselImage1.jpg',
-            smoothieCaption: 'Green Smooth'
+            smoothieCaption: 'Lotus Green'
         },
         {
             num: 7,
             imageName: '/CarouselImage2.jpg',
-            smoothieCaption: 'Orange Smooth'
+            smoothieCaption: 'Orange Orange'
         },
     ]);
 
