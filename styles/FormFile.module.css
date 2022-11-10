@@ -1,0 +1,66 @@
+.news-form-container {
+    position: fixed;
+    width: 50vw;
+    height: fit-content;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 8888;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+}
+
+.news-form-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    color: #460E47
+}
+
+.news-form-main {
+    font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.news-form-input {
+    margin-top: 5px;
+    height: 45px;
+    width: 500px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px 2px rgba(182, 179, 179, 0.607);
+    font-size: 19px;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    font-family: 'Inter';
+}
+
+.news-form-input::placeholder {
+    font-size: 19px;
+    color: rgb(66, 65, 65);
+    font-family: 'Inter';
+    padding-left: 12px;
+}
+
+.news-form-button {
+    background: #c37887;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}

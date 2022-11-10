@@ -1,0 +1,14 @@
+.footer-container {
+    background: white;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-title {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 10px;
+}
