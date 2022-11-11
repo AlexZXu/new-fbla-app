@@ -91,7 +91,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 6px;
     z-index: 1;
     position: relative;
 
@@ -207,7 +207,7 @@
         height: 62vh;
     }
     .preview-container {
-        height: 87.2vh;
+        height: 87vh;
     }
 }
 
@@ -233,20 +233,35 @@
         width: 79.8vw;
         column-gap: 3.5vw;
     }
+    .preview-container {
+        margin-top: 4px;
+    }
     .preview-carousel-item {
         width: 38vw;
         height: 63.4vh;
         
         border-radius: 65px;
     }
+    .preview-carousel {
+        height: 63.4vh;
+    }
+    .preview-carousel-container {
+        height: 63.4vh;
+    }
 }
 
 
 @media screen and (max-width: 800px) {
     .preview-container {
-        height: 86.5vh;
+        height: 85vh;
     }
     .preview-carousel-item {
+        height: 62vh;
+    }
+    .preview-carousel {
+        height: 62vh;
+    }
+    .preview-carousel-container {
         height: 62vh;
     }
 }
@@ -301,21 +316,25 @@
         margin-top: 15px;
     }
     .preview-carousel-item {
-        height: 58vh;
+        height: 52vh;
         border-radius: 50px;
         
     }
     .preview-carousel-container {
-        height: 61vh;
+        height: 52vh;
         margin-top: -2px;
     }
     .preview-container {
-        height: 85vh;
+        height: 78vh;
         row-gap: 2.5vh;
     }
     .preview-sub-title {
         font-size: 22px;
     }  
+    .preview-carousel-arrow {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media screen and (max-width: 710px) and (min-height: 730px) {
@@ -326,33 +345,12 @@
     }
     .preview-carousel {
         height: 54vh;
-        
     }
     .preview-carousel-item {
         height: 54vh;
     }
     .preview-title-container {
         margin-top: 0px;
-    }
-}
-
-@media screen and (max-width: 510px) {
-    .preview-carousel-item {
-        height: 55.5vh
-    }
-    .preview-carousel {
-        height: 55.5vh;
-    }
-    .preview-carousel-container {
-        height: 55.5vh;
-    }
-    .preview-container {
-        height: 84.5vh;
-        
-    }
-    .preview-carousel-arrow {
-        width: 40px;
-        height: 40px;
     }
 }
 
@@ -388,12 +386,18 @@
     }
 }
 
-@media screen and (max-width: 430px) and (min-height: 730px) {
+@media screen and (max-width: 450px) and (min-height: 600px) {
+    .preview-sub-title {
+        font-size: 18px;
+    }
+    .preview-title {
+        font-size: 32px;
+    }
     .preview-carousel-item {
-        height: 35vh;
+        height: 45vh;
     }
     .preview-carousel-container {
-        height: 35vh;
+        height: 45vh;
         margin: 0;
     }
     .preview-title-container {
@@ -403,7 +407,7 @@
     .preview-container {
         row-gap: 2.2vh;
         height: 5;
-        height: 55vh;
+        height: 70vh;
     }
 }
 
@@ -425,12 +429,12 @@
     }
 }
 
-@media screen and (max-width: 400px) and (min-height: 730px) {
+@media screen and (max-width: 400px) and (min-height: 530px) {
     .preview-carousel-item {
-        height: 36vh;
+        height: 43vh;
     }
     .preview-carousel-container {
-        height: 36vh;
+        height: 43vh;
         margin: 0;
     }
     .preview-title-container {
@@ -440,30 +444,25 @@
     .preview-container {
         row-gap: 2vh;
         height: 5;
-        height: 57vh;
+        height: 66vh;
     }
 }
 
 @media screen and (max-width: 370px) {
     .preview-carousel-item {
-        height: 41vh;
+        height: 48vh;
         min-height: 0;
 
     }
     .preview-carousel-container {
-        height: 41vh;
+        height: 48vh;
     }
     .preview-carousel {
-        height: 41vh;
+        height: 48vh;
     }
     .preview-container {
-        height: 60vh;
-    }
-    .preview-title {
-        font-size: 31px;
-    }
-    .preview-sub-title {
-        font-size: 19px;
+        height: 72.5vh;
+        row-gap: 19px;
     }
     
 }
