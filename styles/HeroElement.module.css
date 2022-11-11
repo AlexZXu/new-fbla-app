@@ -58,7 +58,7 @@
 
 .preview-container {
     width: 100%;
-    height: 86vh;
+    height: 85vh;
     display: flex;
     background: linear-gradient(90deg, #f4dae1 2.88%, #e9f9ef 97.22%);
     flex-direction: column;
@@ -110,7 +110,7 @@
 
 .preview-carousel {
     width: 75.8vw;
-    height: 63.3vh;
+    height: 63.2vh;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -131,7 +131,7 @@
 }
 
 .preview-carousel-item {
-    height: 63.3vh;
+    height: 63.2vh;
     width: 23.4vw;
     box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.24);
     border-radius: 80px;
@@ -206,7 +206,7 @@
         height: 62vh;
     }
     .preview-container {
-        height: 87vh;
+        height: 84vh;
     }
 }
 
@@ -486,7 +486,7 @@
         height: 340px;
     }
     .preview-container {
-        height: 490px;
+        height: 450px;
         
         row-gap: 10px;
     }
@@ -507,7 +507,6 @@
     }
     .preview-carousel {
         height: 520px;
-        
     }
     .preview-carousel-container {
         height: 520px;
@@ -538,22 +537,22 @@
     }
 }
 
-@media (min-aspect-ratio: 9/4) {
+@media (min-aspect-ratio: 8/5) {
     .preview-carousel-item {
-        height: 32vw;
+        height: 35vw;
     }
     .preview-carousel-container {
-        height: 32vw;
+        height: 35vw;
     }
     .preview-carousel {
-        height: 32vw;
+        height: 35vw;
     }
     .preview-container {
-        height: 44vw;
+        height: 48vw;
     }
 }
 
-@media (max-aspect-ratio: 3/4) {
+@media (max-aspect-ratio: 5/7) {
     .preview-carousel-item {
         height: 74vw;
     }
