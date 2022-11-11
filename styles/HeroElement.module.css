@@ -128,7 +128,6 @@
     position: absolute;
     z-index: 999;
     border-radius: 40px;
-    padding-right: 0px;
 }
 
 .preview-carousel-item {
@@ -253,7 +252,7 @@
 
 @media screen and (max-width: 800px) {
     .preview-container {
-        height: 85vh;
+        height: 83vh;
     }
     .preview-carousel-item {
         height: 62vh;
@@ -323,7 +322,7 @@
 }
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 700px) {
     .preview-title {
         font-size: 39px;
         margin-top: 6px;
@@ -332,15 +331,15 @@
         margin-top: 15px;
     }
     .preview-carousel-item {
-        height: 52vh;
+        height: 60vh;
         border-radius: 50px; 
     }
     .preview-carousel-container {
-        height: 52vh;
+        height: 60vh;
         margin-top: 3px;
     }
     .preview-container {
-        height: 71vh;
+        height: 85vh;
         row-gap: 2.5vh;
     }
     .preview-sub-title {
@@ -349,19 +348,6 @@
     .preview-carousel-arrow {
         width: 40px;
         height: 40px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .preview-carousel-item {
-        height: 49vh;
-    }
-    .preview-carousel-container {
-        margin-top: 0px;
-        height: 49vh;
-    }
-    .preview-carousel {
-        height: 49vh;
     }
 }
 
@@ -500,7 +486,7 @@
         height: 340px;
     }
     .preview-container {
-        height: 510px;
+        height: 490px;
         
         row-gap: 10px;
     }
@@ -564,6 +550,22 @@
     }
     .preview-container {
         height: 44vw;
+    }
+}
+
+@media (max-aspect-ratio: 4/5) {
+    .preview-carousel-item {
+        height: 74vw;
+    }
+    .preview-carousel-container {
+        height: 74vw;
+    }
+    .preview-carousel {
+        height: 74vw;
+    }
+    .preview-container {
+        height: 110vw;
+        row-gap: 14px;
     }
 }
   
