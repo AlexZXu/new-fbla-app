@@ -444,7 +444,7 @@
     .preview-container {
         row-gap: 2vh;
         height: 5;
-        height: 66vh;
+        height: 62.5vh;
     }
 }
 
@@ -461,7 +461,7 @@
         height: 48vh;
     }
     .preview-container {
-        height: 72.5vh;
+        height: 71vh;
         row-gap: 19px;
     }
     
