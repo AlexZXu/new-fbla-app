@@ -114,10 +114,9 @@ export default function SmoothiePreview() {
             </div>
         </Fade>
 
-        <FiChevronLeft className={styles["preview-carousel-arrow"]} style={{left: '5vw'}} onClick={() => {if (canMoveOn == true) {setDirection(false); setCurrentIndex(prevIndex => prevIndex-1); setTransitionActive(true); setCanMoveOn(false)}}}/>
-        <FiChevronRight className={styles["preview-carousel-arrow"]} style={{right: '5vw'}} onClick={() => {if (canMoveOn == true) {setDirection(true); setCurrentIndex(prevIndex => prevIndex+1); setTransitionActive(true); setCanMoveOn(false)}}}/>
-
         <div className={styles["preview-carousel-container"]}>
+            <FiChevronLeft className={styles["preview-carousel-arrow"]} style={{left: '5vw'}} onClick={() => {if (canMoveOn == true) {setDirection(false); setCurrentIndex(prevIndex => prevIndex-1); setTransitionActive(true); setCanMoveOn(false)}}}/>
+            <FiChevronRight className={styles["preview-carousel-arrow"]} style={{right: '5vw'}} onClick={() => {if (canMoveOn == true) {setDirection(true); setCurrentIndex(prevIndex => prevIndex+1); setTransitionActive(true); setCanMoveOn(false)}}}/>
             <div className={styles["preview-carousel"]} style={{marginLeft:`${marginWidth * currentIndex}vw`, transition: transitionActive ? 'margin-left 0.7s' : 'margin-left 0s'}} onTransitionEnd={() => {console.log("end"); updatePos()}}>
                 {
                     arr.map((obj, index) => (
