@@ -242,6 +242,7 @@
 .fresh-container {
     background: linear-gradient(249.53deg, #ebcad3 2.88%, #dce8e2 97.22%);
     display: flex;
+    overflow-x: hidden;
     height: 72vh;
     align-items: center;
     min-height: 450px;

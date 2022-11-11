@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <Head>
-        <link rel="shortcut icon" href="/Favicon.ico" />
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/AlexZXu/new-fbla-app/master/public/favicon.ico" />
       </Head>
     </>
   )
