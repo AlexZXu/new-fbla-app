@@ -390,10 +390,10 @@
 
 @media screen and (max-width: 430px) and (min-height: 730px) {
     .preview-carousel-item {
-        height: 39vh;
+        height: 35vh;
     }
     .preview-carousel-container {
-        height: 39vh;
+        height: 35vh;
         margin: 0;
     }
     .preview-title-container {
@@ -402,7 +402,8 @@
     }
     .preview-container {
         row-gap: 2.2vh;
-        height: 59vh;
+        height: 5;
+        height: 55vh;
     }
 }
 
@@ -426,18 +427,20 @@
 
 @media screen and (max-width: 400px) and (min-height: 730px) {
     .preview-carousel-item {
-        height: 37vh;
-        min-height: 0;
+        height: 36vh;
     }
     .preview-carousel-container {
-        height: 37vh;
+        height: 36vh;
+        margin: 0;
     }
-    .preview-carousel {
-        height: 37vh;
+    .preview-title-container {
+        padding: 0;
+        margin-top: -2vh;
     }
     .preview-container {
+        row-gap: 2vh;
+        height: 5;
         height: 57vh;
-        row-gap: 1.5vh;
     }
 }
 
