@@ -58,7 +58,7 @@
 
 .preview-container {
     width: 100%;
-    height: 88vh;
+    height: 88.4vh;
     display: flex;
     background: linear-gradient(90deg, #f4dae1 2.88%, #e9f9ef 97.22%);
     flex-direction: column;
@@ -138,7 +138,8 @@
     flex-shrink: 0;
     overflow: hidden;
     z-index: 99;
-
+    
+    
     position: relative;
     transition: scale 0.2s;
 }
@@ -203,6 +204,9 @@
 
 @media (max-width: 900px) {
     .preview-carousel-item {
+        height: 62vh;
+    }
+    .preview-carousel-container {
         height: 62vh;
     }
     .preview-container {
@@ -498,7 +502,7 @@
     }
 }
 
-@media (min-aspect-ratio: 13/5) {
+@media (min-aspect-ratio: 11/5) {
     .preview-carousel-item {
         height: 38vw;        
     }
