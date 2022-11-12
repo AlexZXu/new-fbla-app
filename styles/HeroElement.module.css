@@ -110,7 +110,7 @@
 
 .preview-carousel {
     width: 75.8vw;
-    height: 63.5vh;
+    height: 65vh;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -131,7 +131,7 @@
 }
 
 .preview-carousel-item {
-    height: 63.5vh;
+    height: 65vh;
     width: 23.4vw;
     box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.24);
     border-radius: 80px;
@@ -450,6 +450,7 @@
 @media screen and (max-width: 370px) {
     .preview-carousel-item {
         height: 48vh;
+        
         min-height: 0;
 
     }
@@ -497,9 +498,9 @@
     }
 }
 
-@media (min-aspect-ratio: 11/5) {
+@media (min-aspect-ratio: 13/5) {
     .preview-carousel-item {
-        height: 38vw;
+        height: 38vw;        
     }
     .preview-carousel-container {
         height: 38vw;
@@ -532,7 +533,6 @@
 @media (max-height: 460px) and (max-width: 1000px) {
     .preview-carousel-item {
         height: 320px;
-        
     }
     .preview-carousel {
         height: 320px;
