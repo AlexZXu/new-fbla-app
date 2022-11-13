@@ -17,7 +17,10 @@ export default function HeroElement() {
           <Image src="/HeroImage.jpg" layout="fill" objectFit="cover"/>
         </div>
         <Fade left>
-          <h1 className={styles["hero-text"]}>Fresh. All Day.</h1>
+          <h1 className={styles["hero-text"]}>
+            <span>Fresh.</span> 
+            <span>All Day.</span>
+          </h1>
         </Fade>
     </div>
 

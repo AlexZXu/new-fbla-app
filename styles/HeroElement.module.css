@@ -5,7 +5,6 @@
     position: relative;
     width: 100vw;
     box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.25);
-    min-height: 400px;
 }
 
 
@@ -20,6 +19,8 @@
 
     position: absolute;
     bottom: 30px;
+    display: flex;
+    flex-direction: column;
     left: 4vw;
 }
 
@@ -39,6 +40,25 @@
         width: 360px;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .hero-text {
+        font-size: 14vw;
+        line-height: 15vw;
+        width: 80%;
+    }
+}
+
+@media (max-aspect-ratio: 5/8) {
+    .hero-container {
+        height: 72vh;
+    }
+    .hero-text {
+        left: 3.5vw;
+        bottom: 25px;
+    }
+}
+
 .hero-img {
     position: relative;
     background-size: cover;
@@ -58,7 +78,7 @@
 
 .preview-container {
     width: 100%;
-    height: 88.4vh;
+    height: 88vh;
     display: flex;
     background: linear-gradient(90deg, #f4dae1 2.88%, #e9f9ef 97.22%);
     flex-direction: column;
@@ -109,8 +129,8 @@
 
 
 .preview-carousel {
-    width: 75.8vw;
-    height: 66vh;
+    width: 75.4vw;
+    height: 66.5vh;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -131,7 +151,7 @@
 }
 
 .preview-carousel-item {
-    height: 66vh;
+    height: 66.5vh;
     width: 23.4vw;
     box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.24);
     border-radius: 80px;
@@ -145,7 +165,7 @@
 }
 
 .preview-carousel-item:hover {
-    scale: 108%;
+    scale: 105.5%;
 }
 
 .preview-carousel-item > img {
@@ -233,7 +253,7 @@
 
 @media (max-width: 850px) {
     .preview-carousel {
-        width: 79.8vw;
+        width: 79.5vw;
         column-gap: 3.5vw;
     }
     .preview-container {
@@ -329,7 +349,7 @@
 @media screen and (max-width: 700px) {
     .preview-title {
         font-size: 39px;
-        margin-top: 6px;
+        margin-top: -5px;
     }
     .preview-carousel-container {
         margin-top: 15px;
@@ -352,6 +372,15 @@
     .preview-carousel-arrow {
         width: 40px;
         height: 40px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .preview-container {
+        row-gap: 2vh;
+    }
+    .preview-title {
+        margin-top: 0px;
     }
 }
 
@@ -487,13 +516,13 @@
     }
 }
 
-@media screen and (min-width: 800px) and (min-height: 980px) {
+@media screen and (min-width: 800px) and (min-height: 900px) {
     .preview-title {
         font-size: 50px;
     }
 }
 
-@media screen and (min-width: 1080px) and (min-height: 980px) {
+@media screen and (min-width: 1080px) and (min-height: 900px) {
     .preview-title {
         font-size: 63px;
     }
@@ -504,7 +533,7 @@
 
 @media (min-aspect-ratio: 11/5) {
     .preview-carousel-item {
-        height: 38vw;        
+        height: 38vw;
     }
     .preview-carousel-container {
         height: 38vw;
@@ -528,11 +557,16 @@
         height: 74vw;
     }
     .preview-container {
-        height: 114vw;
+        height: 113vw;
         row-gap: 18px;
     }
 }
 
+@media (max-aspect-ratio: 5/7) and (max-width: 370px) {
+    .preview-container {
+        height: 120vw;
+    }
+}
 
 @media (max-height: 460px) and (max-width: 1000px) {
     .preview-carousel-item {
