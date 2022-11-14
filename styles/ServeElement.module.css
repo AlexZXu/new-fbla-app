@@ -92,6 +92,18 @@
     bottom: 30px;
 }
 
+.serve-button {
+    background: transparent;
+    font-family: 'Inter';
+    height: 42px;
+    font-weight: 600;
+    width: 200px;
+    font-size: 17px;
+    color: white;
+    border-radius: 25px;
+    border: white 1px solid;
+}
+
 @media screen and (max-width: 930px) {
     .serve-address {
         font-size: 30px;
@@ -213,11 +225,16 @@
     .serve-subtitle {
         font-size: 17px;
     }
+    .serve-button {
+        font-size: 16px;
+        width: 190px;
+        height: 37px;
+    }
 }
 
 @media (max-aspect-ratio: 4/7) {
     .serve-container {
-        height: 54vh;
+        height: 53vh;
     }
     .serve-sub-container {
         padding-bottom: 15px;
@@ -315,6 +332,18 @@
     padding-right: 15px;
 }
 
+.fresh-button {
+    margin-top: 22px;
+    background: transparent;
+    font-family: 'Inter';
+    height: 44px;
+    font-weight: 600; 
+    width: 165px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: black 1px solid;
+}
+
 @media screen and (max-width: 1000px) {
     .fresh-text-container {
         margin-left: 35px;
@@ -329,7 +358,7 @@
         font-size: 19px;
         line-height: 25px;
     }
-    .fresh-text{
+    .fresh-text {
         font-size: 38px;
     }
     .fresh-img {
@@ -377,9 +406,7 @@
     }
     .fresh-text {
         margin-bottom: 1.5vh;
-        font-size: 35px;
-        flex-direction: row;
-        
+        font-size: 35px;        
     }
     .fresh-desc {
         margin-top: 10px;
@@ -391,11 +418,58 @@
 @media screen and (max-width: 650px) {
     .fresh-desc {
         font-size: 18px;
+        line-height: 21px;
     }
     .fresh-text {
         font-size: 32px;
+
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .fresh-text {
+        font-size: 29px;
+        margin-bottom: 1vh;
+    }
+    .fresh-desc {
+        font-size: 17px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .fresh-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-aspect-ratio: 5/7) {
+    .fresh-img {
+        margin: 0;
+        width: 90vw;
+        height: 25vh;
+        min-height: 220px;
+        margin-bottom: 1.5vh;
+    }
+    
+    .fresh-img::after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        width: 90vw;
+        height: 25vh;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), 
+        linear-gradient(161.79deg, rgba(41, 8, 8, 0.3) 10.19%, rgba(0, 0, 0, 0) 87.62%), 
+        linear-gradient(269.58deg, rgba(146, 57, 57, 0.25) 0.35%, rgba(0, 0, 0, 0.125) 99.63%);
+    }
+        
+    .fresh-img:hover {
+        height: 27vh;
+        width: 92vw;
+    }
+}
+
 .served-container {
     height: 140px;
     width: 100%;
@@ -428,11 +502,23 @@
     z-index: 4;
 }
 
+.served-title {
+    font-size: 50px;
+}
+
+.served-sub {
+    font-size: 22px;
+    font-weight: 400;
+}
+
 @media screen and (max-width: 660px) {
     .served-container {
         height: 130px;
     }
 }
 
-.img-class {
+@media screen and (max-width: 500px) {
+    .served-container {
+        height: 120px;
+    }
 }

@@ -9,7 +9,7 @@ export default function MediaElement(props) {
     <div className={styles["media-element"]}>
         <div className={styles["media-title"]}>
             <div className={styles["media-profile"]}>
-                <div style={{borderRadius: '30px', overflow: 'hidden', width: '60px', height: '60px', marginLeft: '11px', position: 'relative'}}>
+                <div className={styles["media-profile-picture"]}>
                     <Image src={profileString} layout="fill" objectFit="cover" quality={10} />
                 </div>
                 <div style={{marginLeft: '15px'}}>
@@ -27,7 +27,7 @@ export default function MediaElement(props) {
             <div className={styles["media-text"]}>
                 {props.mediaText}
             </div>
-            <div style={{width: '100%', height: '130px', position: 'relative', boxShadow: '0px 3px 40px rgb(247, 200, 200)'}}>
+            <div className={styles["media-img"]}>
                 <Image src={nameString} layout='fill' objectFit='cover' quality={50}/>
             </div>
         </div>

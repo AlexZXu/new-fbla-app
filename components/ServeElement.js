@@ -27,15 +27,17 @@ export default function ServeElement() {
                 <p className={styles["serve-title"]}>Serving <span style={{color: '#f3e3ff'}}>Somewhereland</span></p>
                 <p className={styles["serve-sub-title"]}>4 years and counting...</p>
               </div>
-              <div className={styles["serve-sub-container"]}>
+            </Fade>
+            <div className={styles["serve-sub-container"]}>
+              <Fade left fraction={0.6}>
                 <div className={styles["serve-compass"]}>
                   <FaCompass style={{fontSize: '32px', color: 'white'}}/>
                 </div>
                 <p className={styles["serve-subtitle"]} style={{padding: '0', marginBottom: '-8px'}}>Come see us:</p>
                 <p className={styles["serve-address"]}>555 Willie Stargell Ave., Alameda, CA 94501</p>
-                <button style={{background: 'transparent', fontFamily: 'Inter', height: '42px', fontWeight: '600', width: '200px', fontSize: '17px', color: 'white', borderRadius: '25px', border: 'white 1px solid'}}>See Us On Google</button>
-              </div>
-            </Fade>
+                <button className={styles["serve-button"]}>See Us On Google</button>
+              </Fade>
+            </div>
           </div>
       </div>
     

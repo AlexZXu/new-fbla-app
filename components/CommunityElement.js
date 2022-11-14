@@ -97,15 +97,15 @@ export default function CommunityElement(props) {
           <div className={styles["community-contacts"]}>
             <div className={styles["community-contact"]}>
               <FaTwitter className={styles["community-icon"]} style={{color: '#1DA1F2'}}/>
-              <div>@smoothse</div>
+              <div className={styles["community-text"]}>@smoothse</div>
             </div>
             <div className={styles["community-contact"]}>
               <FaInstagram className={styles["community-icon"]} style={{color: '#E1306C'}}/>
-              <div>@somesmoothie</div>
+              <div className={styles["community-text"]}>@somesmoothie</div>
             </div>
             <div className={styles["community-contact"]}>
               <FaFacebook className={styles["community-icon"]} style={{color: '#4267B2'}}/>
-              <div>@somesmooth</div>
+              <div className={styles["community-text"]}>@somesmooth</div>
             </div>
           </div>
           
