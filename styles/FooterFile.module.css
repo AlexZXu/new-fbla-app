@@ -1,14 +1,17 @@
 .footer-container {
-    background: white;
     font-family: 'Inter';
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #dcc8cc 2.88%, #cad6cf 97.22%);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .footer-title {
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 500;
-    margin-top: 10px;
 }

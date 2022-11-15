@@ -15,28 +15,26 @@ export default function CommunityElement(props) {
 
   return (
     <div className={styles["community-container"]}>
-        <div style={{marginBottom: '14px', textAlign: 'center'}}>
-            <h2 className={styles["community-title"]}>Our Community: Somewhereland</h2>
-        </div>
+        <h2 className={styles["community-title"]}>Our Community: Somewhereland</h2>
         <div className={styles["main-container"]}>
           <MediaElement 
             name="Sharkalex" 
             nameInfo="@Epic_Alex • Oct. 22"
-            mediaText="Went by . today, got myself a drink and did some work. it was great!"
+            mediaText="Went by SmoothSe today, got myself a drink and did some work. it was great!"
             imageName="TwitPic1"
             profileImage="ProfilePic1"
           />
           <MediaElement 
             name="Taylor Tourist" 
             nameInfo="@Taytay20 • Oct. 20"
-            mediaText="Was driving through Somewhereland and stumbled upon a gem: ()"
+            mediaText="Was driving through Somewhereland and found this great smoothie shop!"
             imageName="TwitPic2"
             profileImage="ProfilePic2"
           />
           <MediaElement 
             name="ShopFinder" 
             nameInfo="@cheapshops • Nov. 1"
-            mediaText=". has been rated the best smoothie place in all of Somewhereland!"
+            mediaText="SmoothSe has been rated the best smoothie place in all of Somewhereland!"
             imageName="CarouselImage1"
             profileImage="ProfilePic3"
           />
@@ -57,21 +55,21 @@ export default function CommunityElement(props) {
            <MediaElement 
             name="Sharkalex" 
             nameInfo="@Epic_Alex • Oct. 22"
-            mediaText="Went by . today, got myself a drink and did some work. it was great!"
+            mediaText="Went by SmoothSe today, got myself a drink and did some work. it was great!"
             imageName="TwitPic1"
             profileImage="ProfilePic1"
           />
           <MediaElement 
             name="Taylor Tourist" 
             nameInfo="@Taytay20 • Oct. 20"
-            mediaText="Was driving through Somewhereland and stumbled upon a gem: ()"
+            mediaText="Was driving through Somewhereland and found this great smoothie shop!"
             imageName="TwitPic2"
             profileImage="ProfilePic2"
           />
           <MediaElement 
             name="ShopFinder" 
             nameInfo="@cheapshops • Nov. 1"
-            mediaText=". has been rated the best smoothie place in all of Somewhereland!"
+            mediaText="SmoothSe has been rated the best smoothie place in all of Somewhereland!"
             imageName="CarouselImage1"
             profileImage="ProfilePic3"
           />

@@ -34,7 +34,7 @@ export default function ServeElement() {
                   <FaCompass style={{fontSize: '32px', color: 'white'}}/>
                 </div>
                 <p className={styles["serve-subtitle"]} style={{padding: '0', marginBottom: '-8px'}}>Come see us:</p>
-                <p className={styles["serve-address"]}>555 Willie Stargell Ave., Alameda, CA 94501</p>
+                <p className={styles["serve-address"]}>345 Smooth Ave., Somewhereland, MA 45911</p>
                 <button className={styles["serve-button"]}>See Us On Google</button>
               </Fade>
             </div>

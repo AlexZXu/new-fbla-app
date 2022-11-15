@@ -6,6 +6,7 @@
     font-family: 'Inter';
 }
 
+
 .hero-img {
     position: relative;
     z-index: 2;
@@ -40,6 +41,7 @@
 }
 
 
+
 @media screen and (max-width: 900px) {
     .hero-title {
         font-size: 90px;
@@ -56,12 +58,33 @@
     }
 }
 
+@media screen and (max-width: 470px) {
+    .hero-title {
+        font-size: 14vw;
+        line-height: 15vw;
+        width: 80%;
+    }
+}
+
+@media (max-aspect-ratio: 5/8) {
+    .main-container {
+        height: 72vh;
+    }
+    .hero-title {
+        left: 3.5vw;
+        bottom: 25px;
+    }
+}
+
+
 .hero-text-container {
     position: absolute;
     bottom: 35px;
     left: 4vw;
     z-index: 3;
 }
+
+
 
 .do-container {
     width: 100%;

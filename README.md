@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SmoothSe - The Best Local Smoothie Shop
+## Made By Alex Xu for FBLA Website Design Competition
 
-## Getting Started
+### Image Sources:
+All images were sourced from Pexels, a free-to-use royalty-free image site.
 
-First, run the development server:
+Here are credits to all the images and their images:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Roman Odintsov
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://www.pexels.com/photo/a-green-smoothie-with-mint-leaves-5338140/
+https://www.pexels.com/photo/apple-and-beetroot-smoothie-4551975/
+https://www.pexels.com/photo/a-red-smoothie-on-glass-cup-with-straw-5338133/
+https://www.pexels.com/photo/delicious-lunch-with-salad-french-fries-and-smoothies-4552175/
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Merve Sahin
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+https://www.pexels.com/photo/refreshing-fruit-shake-8580619/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Meruyert Gonullu
 
-## Learn More
+https://www.pexels.com/photo/roofed-local-fruits-and-vegetables-market-6152382/
 
-To learn more about Next.js, take a look at the following resources:
+Michael Burrows
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://www.pexels.com/photo/boxes-with-fresh-yummy-nectarines-in-supermarket-fridge-7129144/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Lisa Fotios
 
-## Deploy on Vercel
+https://www.pexels.com/photo/clear-drinking-glass-with-strawberry-845552/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+George Dolgikh
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://www.pexels.com/photo/woman-taking-selfie-while-smiling-1310522/
+
+Daniel Torobekov
+
+https://www.pexels.com/photo/vertical-shot-of-school-of-zebra-fish-and-shark-11348768/
+
+Hans Martha
+
+https://www.pexels.com/photo/close-up-photo-of-parakeet-1059823/
+
+Lucas Allmann
+
+https://www.pexels.com/photo/empty-room-1378424/
+
+Milada Vigerova
+
+https://www.pexels.com/photo/close-up-shot-of-strawberries-on-a-metal-bowl-beside-a-strawberry-smoothie-5984486/
+
+Antoni Shkraba 
+
+https://www.pexels.com/photo/close-up-of-a-smoothie-in-a-glass-4753639/
+
+Charlotte May
+
+https://www.pexels.com/photo/crop-faceless-woman-holding-glass-of-delicious-smoothie-5946801/
+
+Suzy Hazelwood
+
+https://www.pexels.com/photo/red-strawberries-on-plate-1194369/
+
+Mikhail Nilov
+
+https://www.pexels.com/photo/a-person-holding-a-green-smoothie-beside-the-laptop-7683772/
+
+
+This website was built with Next.js, an open-sourced powerful framework for building websites.
