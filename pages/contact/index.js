@@ -4,6 +4,7 @@ import ContactMain from '../../components/ContactMain';
 import NavBar from '../../components/NavBar';
 import NewsLetterForm from '../../components/NewsLetterForm';
 import Footer from '../../components/Footer';
+
 export default function Contact() {
     const [formOpen, setFormOpen] = React.useState(false);
 

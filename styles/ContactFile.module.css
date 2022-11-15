@@ -40,9 +40,10 @@
 }
 
 
+
 @media screen and (max-width: 900px) {
     .hero-title {
-        font-size: 80px;
+        font-size: 90px;
         line-height: 100px;
         width: 400px;
     }
@@ -50,9 +51,27 @@
 
 @media screen and (max-width: 700px) {
     .hero-title {
-        font-size: 70px;
+        font-size: 80px;
         line-height: 90px;
         width: 360px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hero-title {
+        font-size: 14vw;
+        line-height: 15vw;
+        width: 80%;
+    }
+}
+
+@media (max-aspect-ratio: 5/8) {
+    .hero-container {
+        height: 72vh;
+    }
+    .hero-title {
+        left: 3.5vw;
+        bottom: 25px;
     }
 }
 
@@ -74,4 +93,56 @@
     font-family: 'Inter';
     font-size: 35px;
     font-weight: 500;
+}
+
+.contact-form-container {
+    font-family: 'Inter';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6vw;
+}
+
+.contact-form-container > form {
+    width: 60%;
+    margin-top: 20px
+}
+
+.contact-form-title {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+
+.contact-form-input {
+    margin-top: 5px;
+    height: 40px;
+    width: 95%;
+    border: none;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-left: 12px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(145, 143, 143);
+    background: none;
+    font-family: 'Inter';
+    color: rgb(247, 243, 243);
+
+    
+}
+
+.contact-form-input::placeholder {
+    font-size: 19px;
+    color: rgb(221, 215, 215);
+    font-family: 'Inter';
+}
+
+.contact-form-input:focus {
+    outline: none;
+}
+
+.contact-form-input-title {
+    color: white;
+    font-size: 19px;
+    margin-left: 4px;
 }
