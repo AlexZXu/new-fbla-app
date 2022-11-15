@@ -65,5 +65,8 @@ Mikhail Nilov
 
 https://www.pexels.com/photo/a-person-holding-a-green-smoothie-beside-the-laptop-7683772/
 
+Josh Sorenson
+
+https://www.pexels.com/photo/shake-in-a-glass-990439/
 
 This website was built with Next.js, an open-sourced powerful framework for building websites.
