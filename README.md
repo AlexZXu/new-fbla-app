@@ -12,6 +12,7 @@ https://www.pexels.com/photo/a-green-smoothie-with-mint-leaves-5338140/
 https://www.pexels.com/photo/apple-and-beetroot-smoothie-4551975/
 https://www.pexels.com/photo/a-red-smoothie-on-glass-cup-with-straw-5338133/
 https://www.pexels.com/photo/delicious-lunch-with-salad-french-fries-and-smoothies-4552175/
+https://www.pexels.com/photo/detox-juice-in-a-drinking-glass-4552049/
 
 Merve Sahin
 

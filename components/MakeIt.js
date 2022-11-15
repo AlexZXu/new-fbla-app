@@ -14,7 +14,7 @@ export default function MakeIt() {
     return (
         <div className={styles["main-container"]}>
             <div className={styles["main-img"]} style={{height: `${size}%`, width:`${size}%`, transition: transition}}>
-                <Image src="/MakeItImg2.jpg" layout='fill' objectFit='cover'/>
+                <Image src="/MakeItImg.jpg" layout='fill' objectFit='cover'/>
             </div>
             <div className={styles["serve-text-container"]}>
             </div>
