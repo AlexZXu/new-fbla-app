@@ -12,8 +12,8 @@ export default function ContactForm() {
                 <input className={styles["contact-form-input"]} placeholder="Name"></input>
                 <div className={styles["contact-form-input-title"]}>Email</div>
                 <input className={styles["contact-form-input"]} placeholder="Email"></input>
-                <div className={styles["contact-form-input-title"]}>Suggestion</div>
-                <input className={styles["contact-form-input"]} placeholder="Suggestion"></input>
+                <div className={styles["contact-form-input-title"]}>Note</div>
+                <input className={styles["contact-form-input"]} placeholder="Note"></input>
                 <button style={{fontFamily: 'Inter', background: 'none', border: '1px solid gray', color: 'white', paddingLeft: '25px', paddingRight: '25px', paddingTop: '5px', paddingBottom: '5px', borderRadius: '10px', fontSize: '18px', marginTop: '-5px'}}>Send</button>
             </form>
         </div>

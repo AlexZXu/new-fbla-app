@@ -116,10 +116,10 @@
 
 .contact-form-input {
     margin-top: 5px;
-    height: 40px;
+    height: 31px;
     width: 95%;
     border: none;
-    font-size: 19px;
+    font-size: 16px;
     padding-top: 5px;
     padding-left: 12px;
     margin-bottom: 25px;
@@ -132,7 +132,7 @@
 }
 
 .contact-form-input::placeholder {
-    font-size: 19px;
+    font-size: 16px;
     color: rgb(221, 215, 215);
     font-family: 'Inter';
 }
@@ -143,6 +143,12 @@
 
 .contact-form-input-title {
     color: white;
-    font-size: 19px;
+    font-size: 17px;
     margin-left: 4px;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-form-container > form {
+        width: 100%;
+    }
 }
