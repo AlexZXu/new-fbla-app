@@ -28,7 +28,6 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(90deg, #f4dae1 2.88%, #e9f9ef 97.22%);
-    border: solid;
 }
 
 .menu-item-container {

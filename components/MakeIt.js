@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/MakeIt.module.css'
 import Image from 'next/image';
 import {Fade} from 'react-reveal';
+import Link from 'next/link';
 export default function MakeIt() {
     const [size, setSize] = React.useState(100);
     const [transition, setTransition] = React.useState('height 2s, width 2s');
@@ -17,7 +18,7 @@ export default function MakeIt() {
             </div>
             <div className={styles["serve-text-container"]}>
             </div>
-            <div className={styles["serve-text-real"]} style={{position: 'absolute', right: '0', height: '100%'}}>
+            <div className={styles["serve-text-real"]}>
                 <div className={styles["serve-text-section"]}>
                     <p className={styles["serve-title"]}>How We <span style={{color: '#f3e3ff'}}>Make It</span></p>
                     <p className={styles["serve-desc"]}>
@@ -31,7 +32,7 @@ export default function MakeIt() {
                     <p className={styles["menu-title"]}>
                         Check out our menu!
                     </p>
-                    <button className={styles["serve-button"]}>See Our Menu</button>
+                    <Link href="/menu"><a className={styles["serve-button"]}>See Our Menu</a></Link>
                 </div>
                 
             </div>

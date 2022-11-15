@@ -11,7 +11,7 @@ export default function FreshDrinkElement() {
             <div className={styles["fresh-section-img"]}>
                 <Image src="/CarouselImage1.jpg" layout="fill" objectFit='cover'/>
                 <div className={styles["fresh-section-text"]}>
-                    <div className={styles["fresh-section-title"]}>How We Make Our Smoothies</div>
+                    <div className={styles["fresh-section-title"]}>Our Pledge</div>
                     <div className={styles["fresh-section-desc"]}>
                         <b>We make all our smoothies fresh.</b>
                         We pick out the fruits and veggies.
