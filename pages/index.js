@@ -3,12 +3,12 @@ import SmoothiePreview from "../components/SmoothiePreview";
 import ServeElement from "../components/ServeElement";
 import FreshElement from "../components/FreshElement";
 import SmoothiesServed from "../components/SmoothiesServed";
-import NavBar1 from "../components/NavBar1";
 import React from "react";
 import CommunityElement from "../components/CommunityElement";
 import NavBar from "../components/NavBar";
 import NewsLetterForm from "../components/NewsLetterForm";
 import Footer from "../components/Footer";
+import MakeIt from "../components/MakeIt";
 
 export default function Home() {
 
@@ -21,8 +21,8 @@ export default function Home() {
       <SmoothiePreview />
       <ServeElement />
       <FreshElement />
-      <NavBar1 />
       <SmoothiesServed />
+      <MakeIt />
       <CommunityElement setFormOpen={updateFormOpen}/>
       {formOpen && <NewsLetterForm setFormOpen={updateFormOpen}/>}
       <Footer />

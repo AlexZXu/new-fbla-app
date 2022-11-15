@@ -6,6 +6,7 @@ import FreshDrinkElement from '../../components/FreshDrinkElement';
 import NewsLetterForm from '../../components/NewsLetterForm';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import MakeIt from "../../components/MakeIt";
 
 export default function About () {
     const [formOpen, setFormOpen] = React.useState(false);
@@ -16,6 +17,7 @@ export default function About () {
             <AboutHero />
             <WhatWeDo />
             <InfoElement />
+            <MakeIt />
             <FreshDrinkElement />
             {formOpen && <NewsLetterForm setFormOpen={updateFormOpen}/>}
             <Footer />

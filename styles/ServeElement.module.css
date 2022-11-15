@@ -478,6 +478,7 @@
     align-items: center;
     position: relative;
     z-index: 2;
+    box-shadow: 0px 6px 12px 1px rgb(21, 21, 21);
 }
 
 .served-container::after {
