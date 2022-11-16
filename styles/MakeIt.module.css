@@ -23,7 +23,7 @@
     width: 100%;
     height: 80vh;
     min-height: 420px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(228, 169, 169, 0) 0%, rgba(229, 165, 165, 0.015625) 64.58%, rgba(238, 103, 103, 0.25) 100%), linear-gradient(90.22deg, rgba(0, 0, 0, 0.2) 22.75%, rgba(0, 0, 0, 0.15) 99.83%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(228, 169, 169, 0) 0%, rgba(112, 91, 91, 0.016) 64.58%, rgba(238, 103, 103, 0.25) 100%), linear-gradient(90.22deg, rgba(0, 0, 0, 0.2) 22.75%, rgba(0, 0, 0, 0.5) 99.83%);
 }
 
 
@@ -64,6 +64,7 @@
     position: absolute;
     right: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 .serve-desc {

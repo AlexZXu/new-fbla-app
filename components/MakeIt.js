@@ -19,22 +19,26 @@ export default function MakeIt() {
             <div className={styles["serve-text-container"]}>
             </div>
             <div className={styles["serve-text-real"]}>
-                <div className={styles["serve-text-section"]}>
-                    <p className={styles["serve-title"]}>How We <span style={{color: '#f3e3ff'}}>Make It</span></p>
-                    <p className={styles["serve-desc"]}>
-                        First, we partner with local markets to bring the freshest produce to the table.
-                        Next, we pick out the fruits we need. We add milk, protein, fruits, veggies, and oats in.
-                        Finally, we blend it all. These smoothies are all guaranteed fresh and replenishing, providing
-                        the calories, protein, and vitamins you need.
-                    </p>
-                </div>
-                <div className={`${styles["serve-text-section"]} ${styles["serve-menu-section"]}`}>
-                    <p className={styles["menu-title"]}>
-                        Check out our menu!
-                    </p>
-                    <Link href="/menu"><a className={styles["serve-button"]}>See Our Menu</a></Link>
-                </div>
-                
+                <Fade right fraction={0.4}>
+                    <div className={styles["serve-text-section"]}>
+                        <p className={styles["serve-title"]}>How We <span style={{color: '#f3e3ff'}}>Make It</span></p>
+                        <p className={styles["serve-desc"]}>
+                            First, we partner with local markets to bring the freshest produce to the table.
+                            Next, we pick out the fruits we need. We add milk, protein, fruits, veggies, and oats in.
+                            Finally, we blend it all. These smoothies are all guaranteed fresh and replenishing, providing
+                            the calories, protein, and vitamins you need.
+                        </p>
+                    </div>
+                </Fade>
+
+                <Fade right fraction={0.4}>
+                    <div className={`${styles["serve-text-section"]} ${styles["serve-menu-section"]}`}>
+                        <p className={styles["menu-title"]}>
+                            Check out our menu!
+                        </p>
+                        <Link href="/menu"><a className={styles["serve-button"]}>See Our Menu</a></Link>
+                    </div>
+                </Fade>
             </div>
         </div>
     )
