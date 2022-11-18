@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 900px) {
     .hero-title {
-        font-size: 90px;
+        font-size: 86px;
         line-height: 100px;
         width: 400px;
     }
@@ -97,44 +97,53 @@
 
 .contact-form-container {
     font-family: 'Inter';
+    display: flex;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.contact-form {
+    background: radial-gradient(rgb(188, 108, 129), rgb(190, 90, 111) 90%);
+    width: 50%;
+    padding-left: 25px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 6vw;
+    padding-bottom: 25px;
+    z-index: 555;
+    box-shadow: 0px 0px 50px 5px rgb(10, 10, 10);
 }
 
 .contact-form-container > form {
     width: 60%;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .contact-form-title {
     color: white;
-    font-size: 35px;
+    font-size: 60px;
+    margin-bottom: 5px;
     font-weight: 500;
-    
 }
 
 .contact-form-input {
     margin-top: 5px;
-    height: 31px;
+    height: 44px;
+    border: #E4E2E2 2px solid;
     width: 95%;
-    border: none;
     font-size: 16px;
-    padding-top: 5px;
     padding-left: 12px;
-    margin-bottom: 25px;
-    border-bottom: 1px solid rgb(145, 143, 143);
+    margin-bottom: 20px;
+    box-shadow: -2px 4px 3px 0px rgba(97, 42, 42, 0.32);
     background: none;
     font-family: 'Inter';
     color: rgb(247, 243, 243);
-
-    
+    border-radius: 10px;
 }
 
 .contact-form-input::placeholder {
     font-size: 16px;
     color: rgb(221, 215, 215);
     font-family: 'Inter';
+    font-weight: 500;
 }
 
 .contact-form-input:focus {
@@ -143,12 +152,51 @@
 
 .contact-form-input-title {
     color: white;
-    font-size: 17px;
-    margin-left: 4px;
+    font-size: 20px;
+    margin-bottom: 4px;
 }
 
-@media screen and (max-width: 700px) {
-    .contact-form-container > form {
+.contact-form-img {
+    width: 50%;
+    position: relative;
+}
+
+.contact-form-img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.2) 0%, rgba(13, 7, 89, 0.2) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media (max-width: 750px) {
+    .contact-form-container {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .contact-form {
         width: 100%;
+    }
+    .contact-form-img {
+        width: 100%;
+        height: 250px;
+    }
+    .contact-form-input-title {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+    .contact-form-input {
+        height: 40px;
+        margin-bottom: 18px;
+    }
+    .contact-form-title {
+        font-size: 53px;
+    }
+    .contact-form {
+        padding-top: 8px;
+        padding-bottom: 18px;
     }
 }

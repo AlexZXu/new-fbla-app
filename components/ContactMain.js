@@ -6,8 +6,8 @@ import ContactForm from './ContactForm';
 export default function ContactMain(props) {
   return (
     <div>
-        <CommunityElement setFormOpen={props.setFormOpen}/>
-        <ContactForm />
+      <CommunityElement setFormOpen={props.setFormOpen}/>
+      <ContactForm />
     </div>
   )
 }

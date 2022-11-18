@@ -24,7 +24,7 @@ export default function FreshElement() {
                     We have partnered with multiple local supermarkets and farmers markets, so we 
                     can ensure all our smoothies are healthy and tasty.
                 </div>
-                <button className={styles["fresh-button"]}>See our Menu</button>
+                <button className={styles["fresh-button"]}>See About Us</button>
 
             </div>
         </Fade>
