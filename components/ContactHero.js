@@ -19,7 +19,7 @@ export default function ContactHero() {
             </div>
             <Fade left>
             <div className={styles["hero-text-container"]}>
-                <h1 className={styles["hero-title"]}>SmoothSe : <span style={{color: '#f3e3ff'}}>Contact</span></h1>
+                <h1 className={styles["hero-title"]}>SmoothSe: <span style={{color: '#f3e3ff'}}>Contact</span></h1>
             </div>
             </Fade>
         </div>

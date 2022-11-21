@@ -200,3 +200,11 @@
         padding-bottom: 18px;
     }
 }
+
+.contact-email-container {
+    background: linear-gradient(220deg, #f4dae1 2.88%, #e9f9ef 97.22%);
+    font-family: 'Inter';
+    height: 150px;
+    font-size: 26px;
+    font-weight: 500;
+}
