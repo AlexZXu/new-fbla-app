@@ -4,6 +4,7 @@ import Fade from 'react-reveal';
 import { useInView } from 'react-intersection-observer';
 import { FaCompass } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ServeElement() {
   const { ref: myRef, inView, entry } = useInView({
@@ -35,7 +36,7 @@ export default function ServeElement() {
                 </div>
                 <p className={styles["serve-subtitle"]} style={{padding: '0', marginBottom: '-8px'}}>Come see us:</p>
                 <p className={styles["serve-address"]}>345 Smooth Ave., Somewhereland, MA 45911</p>
-                <button className={styles["serve-button"]}>See Us On Google</button>
+                <Link href="https://www.google.com/maps"><a className={styles["serve-button"]} style={{width: '200px'}}>See Us On Google</a></Link>
               </Fade>
             </div>
           </div>

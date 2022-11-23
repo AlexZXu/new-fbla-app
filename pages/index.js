@@ -24,7 +24,9 @@ export default function Home() {
       <FreshElement />
       <SmoothiesServed />
       <MakeIt />
-      <CommunityElement setFormOpen={updateFormOpen}/>
+      <div style={{boxShadow: '0px 6px 16px 15px rgb(10, 10, 10)'}}>
+        <CommunityElement setFormOpen={updateFormOpen}/>
+      </div>
       <SmoothieInfo />
       {formOpen && <NewsLetterForm setFormOpen={updateFormOpen}/>}
       <Footer />

@@ -97,11 +97,32 @@
     font-family: 'Inter';
     height: 42px;
     font-weight: 600;
-    width: 200px;
-    font-size: 17px;
+    width: 140px;
+    font-size: 18px;
     color: white;
     border-radius: 25px;
-    border: white 1px solid;
+    border: white 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.serve-compass {
+    animation: compass 7s infinite;
+    width: fit-content;
+    height: fit-content;
+    line-height: 0;
+}
+
+
+@keyframes compass {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .event-container {
@@ -117,13 +138,17 @@
     font-family: 'Inter';
     border: solid rgb(249, 240, 240) 2px;
     border-radius: 10px;
-    padding-top: 8px;
     font-weight: 500;
     padding-bottom: 8px;
+    padding-top: 8px;
     padding-left: 17px;
     box-shadow: 0px 0px 4px 0px rgb(255, 175, 175);
     font-size: 19px;
     color: rgb(247, 242, 242);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 17px;
 }
 
 @media screen and (max-width: 930px) {
@@ -181,7 +206,6 @@
     }
     .serve-subtitle {
         width: 100%;
-        
     }
     .serve-sub-container {
         width: 100%;
@@ -190,6 +214,10 @@
         margin: 0;
         padding-bottom: 25px;
         padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background: rgba(212, 93, 107, 0.5);
     }
 
@@ -274,26 +302,6 @@
     }
 }
 
-@keyframes text-anim {
-    
-}
-
-@keyframes compass {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.serve-compass {
-    animation: compass 7s infinite;
-    width: fit-content;
-    height: fit-content;
-    line-height: 0;
-}
-
 
 
 .fresh-img {
@@ -314,7 +322,7 @@
     position: absolute;
     z-index: 2;
     width: 100%;
-    height: 62.5vh;
+    height: 100%;
     min-height: 430px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), 
     linear-gradient(161.79deg, rgba(41, 8, 8, 0.3) 10.19%, rgba(0, 0, 0, 0) 87.62%), 
