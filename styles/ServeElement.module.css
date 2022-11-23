@@ -115,7 +115,7 @@
 
 .event-container-item {
     font-family: 'Inter';
-    border: solid white 2px;
+    border: solid rgb(249, 240, 240) 2px;
     border-radius: 10px;
     padding-top: 8px;
     font-weight: 500;

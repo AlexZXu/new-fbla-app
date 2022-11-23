@@ -99,6 +99,7 @@
     font-family: 'Inter';
     display: flex;
     z-index: 0;
+    position: relative;
     overflow: hidden;
 }
 
