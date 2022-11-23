@@ -9,6 +9,7 @@ import NavBar from "../components/NavBar";
 import NewsLetterForm from "../components/NewsLetterForm";
 import Footer from "../components/Footer";
 import MakeIt from "../components/MakeIt";
+import SmoothieInfo from "../components/SmoothieInfo";
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
       <SmoothiesServed />
       <MakeIt />
       <CommunityElement setFormOpen={updateFormOpen}/>
+      <SmoothieInfo />
       {formOpen && <NewsLetterForm setFormOpen={updateFormOpen}/>}
       <Footer />
     </div>

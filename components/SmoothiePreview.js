@@ -94,7 +94,6 @@ export default function SmoothiePreview() {
     });
 
     useEffect(() => {
-        console.log(windowWidth)
         if (windowWidth > 850) {
             setMarginWidth(-52);
         }

@@ -4,7 +4,6 @@
     height: fit-content;
     display: flex;
     overflow: hidden;
-    
     flex-direction: column;
 }
 
@@ -229,8 +228,8 @@
     height: 200px;
     border: none;
     overflow: hidden;
-
-
+    
+    box-shadow: 0px 0px 20px 0px black;
 }
 
 .community-button-image {
