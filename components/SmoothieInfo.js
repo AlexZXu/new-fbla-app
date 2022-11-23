@@ -6,7 +6,6 @@ import { Fade } from 'react-reveal'
 export default function SmoothieInfo() {
     const [size, setSize] = React.useState(100);
     const [transition, setTransition] = React.useState('height 2s, width 2s');
-    const {width: windowWidth} = useWindowSize();
 
     React.useEffect(() => {
       window.addEventListener('scroll', calcEnlarge);
@@ -14,7 +13,7 @@ export default function SmoothieInfo() {
 
 
     return (
-        <div className={styles["serve-container"]}>
+        <div className={styles["serve-container"]} style={{minHeight: '500px'}}>
             <div className={styles["serve-img"]} style={{height: `${size}%`, width:`${size}%`, transition: transition}}>
                 <Image src="/InfoImg.jpg" layout='fill' objectFit='cover'/>
             </div>
