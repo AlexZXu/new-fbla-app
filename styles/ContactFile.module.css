@@ -104,7 +104,7 @@
 }
 
 .contact-form {
-    background: radial-gradient(rgb(188, 108, 129), rgb(190, 90, 111) 90%);
+    background: rgba(183, 94, 100, 0.85);
     width: 50%;
     padding-left: 25px;
     padding-top: 20px;
@@ -158,8 +158,11 @@
 }
 
 .contact-form-img {
-    width: 50%;
-    position: relative;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .contact-form-img::after {

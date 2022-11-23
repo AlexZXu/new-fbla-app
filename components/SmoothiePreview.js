@@ -119,7 +119,7 @@ export default function SmoothiePreview() {
             <div className={styles["preview-carousel"]} style={{marginLeft:`${marginWidth * currentIndex}vw`, transition: transitionActive ? 'margin-left 0.7s' : 'margin-left 0s'}} onTransitionEnd={() => {console.log("end"); updatePos()}}>
                 {
                     arr.map((obj, index) => (
-                        <div className={styles["preview-carousel-item"]} onTransitionEnd={(e) => e.stopPropagation()} onMouseOver={() => {console.log('f')}} key={obj.num}>
+                        <div className={styles["preview-carousel-item"]} onTransitionEnd={(e) => e.stopPropagation()} key={obj.num}>
                             <Image alt="carousel-1" src={obj.imageName} layout='fill' objectFit= "cover" quality={30}/>
                             <p className={styles["smoothie-caption"]}>{obj.smoothieCaption}</p>
                         </div>
