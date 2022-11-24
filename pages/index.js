@@ -12,7 +12,6 @@ import MakeIt from "../components/MakeIt";
 import SmoothieInfo from "../components/SmoothieInfo";
 
 export default function Home() {
-
   const [formOpen, setFormOpen] = React.useState(false);
 
   return (
