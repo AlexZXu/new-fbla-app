@@ -44,12 +44,12 @@ export default function MakeIt() {
     )
 
     
-  function calcEnlarge () {
-      let scrollTop = window.scrollY;
-      
-      let height = Math.max(100, 100 + (scrollTop - 0.8 * window.innerHeight)/70);
-      setTransition("width 0.6s ease-out, height 0.6s ease-out");
-      setSize(height);
+    function calcEnlarge () {
+        let scrollTop = window.scrollY;
+        
+        let height = Math.max(100, 100 + (scrollTop - 0.8 * window.innerHeight)/70);
+        setTransition("width 0.6s ease-out, height 0.6s ease-out");
+        setSize(height);
     }
   
 }

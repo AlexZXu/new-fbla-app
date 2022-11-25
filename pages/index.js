@@ -10,6 +10,7 @@ import NewsLetterForm from "../components/NewsLetterForm";
 import Footer from "../components/Footer";
 import MakeIt from "../components/MakeIt";
 import SmoothieInfo from "../components/SmoothieInfo";
+import ContactEmail from "../components/ContactEmail";
 
 export default function Home() {
   const [formOpen, setFormOpen] = React.useState(false);

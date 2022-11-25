@@ -106,7 +106,7 @@ export default function SmoothiePreview() {
     
     return (
       <div className={styles["preview-container"]} style={{position: 'relative'}}>
-        <Fade top fraction={0.9}>
+        <Fade top fraction={1}>
             <div className={styles["preview-title-container"]}>
                 <h2 className={styles["preview-title"]}>Check out some of our smoothies!</h2>
                 <p className={styles["preview-sub-title"]}>Just a small taste of what we have.</p>

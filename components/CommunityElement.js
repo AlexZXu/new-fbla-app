@@ -14,7 +14,7 @@ export default function CommunityElement(props) {
   }, []);
 
   return (
-    <div className={styles["community-container"]}>
+    <div className={styles["community-container"]} id="community-element">
         <h2 className={styles["community-title"]}>Our Community: Somewhereland</h2>
         <div className={styles["main-container"]}>
           <MediaElement 

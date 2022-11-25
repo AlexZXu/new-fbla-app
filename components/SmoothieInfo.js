@@ -61,7 +61,7 @@ export default function SmoothieInfo() {
                         <p className={styles["serve-address"]}>
                             Open All Week: <span style={{color: '#f3e3ff'}}>8am to 7pm</span>
                         </p>
-                        <Link href="/menu"><a className={styles["serve-button"]}>About Us</a></Link>
+                        <Link href="/about"><a className={styles["serve-button"]}>About Us</a></Link>
                     </Fade>
                 </div>
             </div>

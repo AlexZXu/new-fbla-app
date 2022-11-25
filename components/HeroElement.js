@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import styles from '../styles/HeroElement.module.css';
 import { Fade } from 'react-reveal';
-import Image from 'next/image'
+import Image from 'next/image';
+import { BsArrowDownShort } from 'react-icons/bs';
+
 export default function HeroElement() {
   const [width, setWidth] = React.useState(100);
   const [transition, setTransition] = React.useState("width 4s ease-in-out, height 4s ease-in-out");
@@ -22,6 +24,9 @@ export default function HeroElement() {
             <span>All Day.</span>
           </h1>
         </Fade>
+        <div className={styles["hero-down"]}>
+          <BsArrowDownShort />
+        </div>
     </div>
 
   )
